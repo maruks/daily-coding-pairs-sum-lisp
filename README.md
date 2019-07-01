@@ -5,4 +5,4 @@
 
 ### Test
 
-    sbcl --non-interactive --eval "(ql:quickload :pairs-sum)" --eval "(asdf:test-system :pairs-sum)"
+    sbcl --non-interactive --eval "(ql:quickload :pairs-sum/tests)" --eval "(asdf:test-system :pairs-sum)"
